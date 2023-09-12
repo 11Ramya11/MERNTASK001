@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-6 CSS</title>
+    <style>
+        .body{
+            display: flex;
+            flex-direction: column;
+            padding: 2% 33%;
+            margin: 0 5%;
+            margin-top: 5%;
+            
+        }
+        .username,.password{
+            width: 380px;
+            height: 25px;
+            border: 1px solid darkgray;
+            padding: 3px;
+        }
+        .login{
+            width: 388px;
+            color:white;
+            background-color: rgba(26, 182, 5, 0.773);
+            border-color: none;
+            padding:4px;
+        }      
+        table{
+            width: 388px;
+            padding:3px;
+            padding-top:12px;
+            background-color:rgba(233, 231, 231, 0.658);
+        } 
+        img{
+            padding-left: 30px;
+        }
+        .link{
+            text-align: right;
+        }
+        .link a{
+            color: black;
+        }
+        .checkbox{
+            text-align:left
+        }.cancel{            
+            color: white ;
+            background-color:red;
+            border-radius:5px;
+            width:75px;
+            padding: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <img src="imgtask6css.jpg" alt="Img here" width="350" height="300";><br>
+        <label for="Username" ><b>Username</b></label>
+        <input type="username" class="username" placeholder="Enter Username"><br>
+        <label for="Password"><b>Password</b></label> 
+        <input type="password" class="password" placeholder="Enter Password"><br>
+        <input type="submit" class="login" value="Login"><br>
+        <div class="checkbox">
+        <input type="checkbox"/>Remember me <br><br>
+        </div>
+            <table>
+                <tr>
+                    <td>
+                        <input type="submit" class="cancel" value="Cancel">
+                    </td>
+                    <td class="link">
+                        Forgot <a href="#">password?</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>    
+</body>
+</html>

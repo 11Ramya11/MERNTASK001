@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-1b CSS</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: auto auto auto; 
+            gap: 20px;
+            padding: 20px;
+        }
+        .grid{
+            border: 3.1px solid #6fb104af;
+            border-radius: 5px;
+            height: 30px;
+            width: 60px;
+            padding: 10px;
+        }
+        #grid-2{
+            border-radius: 7px;
+        }
+        #grid-3{
+            border-radius: 15px;
+        }
+        #grid-4{
+            border-radius: 8px;
+        }
+        #grid-5{
+            border-radius: 3px;
+        }
+        #grid-6{
+            border-radius: 12px;
+        }
+        #grid-7{
+            border-radius: 70%;
+        }
+        #grid-8{
+            border-radius: 4px;
+        }
+        #grid-9{
+            border-radius: 3.5px 20% 4.5px 20%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="grid" id="grid-1"></div>
+        <div class="grid" id="grid-2"></div>
+        <div class="grid" id="grid-3"></div>
+        <div class="grid" id="grid-4"></div>
+        <div class="grid" id="grid-5"></div>
+        <div class="grid" id="grid-6"></div>
+        <div class="grid" id="grid-7"></div>
+        <div class="grid" id="grid-8"></div>
+        <div class="grid" id="grid-9"></div>
+    </div>
+</body>
+</html>
